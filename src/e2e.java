@@ -18,7 +18,7 @@ public class e2e {
 
 
 		
-		System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 
 		WebDriver driver =new ChromeDriver();
 

@@ -9,7 +9,7 @@ import org.testng.Assert;
 public class MixOfExercises {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rodri/Documents/Eclipse-Workspace/WebDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		

@@ -21,7 +21,7 @@ public class SSL_Certifications_DesiredCapabilities {
 		//Belows to your local browser
 		ChromeOptions c = new ChromeOptions();
 		c.merge(ch);
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rodri/Documents/Eclipse-Workspace/WebDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(c);
 
 	}

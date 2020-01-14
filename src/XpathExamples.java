@@ -6,7 +6,7 @@ public class XpathExamples {
 	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Eclipse-workspace\\WebDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://www.qaclickacademy.com/interview.php");
 		

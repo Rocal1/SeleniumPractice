@@ -7,7 +7,7 @@ public class Dropdown {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Eclipse-workspace\\WebDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://spicejet.com");
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();

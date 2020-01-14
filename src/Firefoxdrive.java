@@ -7,7 +7,7 @@ public class Firefoxdrive {
 		
 	public static void main (String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rodri\\Documents\\Eclipse-workspace\\WebDrivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		
 		driver.get("https://google.com");

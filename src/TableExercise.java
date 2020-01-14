@@ -8,7 +8,7 @@ public class TableExercise {
 	public static void main(String[] args) {
 // TODO Auto-generated method stub
 		int sum = 0;
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rodri/Documents/Eclipse-Workspace/WebDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get(
 				"http://www.cricbuzz.com/live-cricket-scorecard/18970/pak-vs-sl-2nd-t20i-pakistan-v-sri-lanka-in-uae-2017");

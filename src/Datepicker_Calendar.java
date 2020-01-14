@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Datepicker_Calendar {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rodri/Documents/Eclipse-Workspace/WebDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.path2usa.com/travel-companions");
 		

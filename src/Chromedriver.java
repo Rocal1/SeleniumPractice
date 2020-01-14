@@ -8,7 +8,7 @@ public class Chromedriver {
 	
 		//Create Driver object whith ChromeDriver
 		// Invoke first the .exe files
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Eclipse-workspace\\WebDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		//Instance the class WebDriver and create a new instance of ChromeDriver
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");

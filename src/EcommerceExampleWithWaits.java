@@ -12,7 +12,7 @@ public class EcommerceExampleWithWaits {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rodri/Documents/Eclipse-Workspace/WebDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\Documents\\Selenium JARs & WebDrivers\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//Implicit wait (commented)
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
